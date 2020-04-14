@@ -8,5 +8,5 @@ Bluepill
 - [Bluepill information](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html)
 
 We're using the Analog Devices AD5668 DAC for 8 channel 16 bit CV
-- [Analog Devices AD5668](Analog Devices AD5668)
+- [Analog Devices AD5668](https://www.analog.com/en/products/ad5668.html)
 - [AD5668 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/AD5668-EP.pdf)
