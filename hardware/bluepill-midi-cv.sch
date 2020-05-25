@@ -168,17 +168,6 @@ NoConn ~ 1800 6300
 NoConn ~ 1300 6300
 NoConn ~ 1300 6400
 $Comp
-L bluepill-midi-cv-rescue:BluePill-patchut U?
-U 1 1 5EA729A0
-P 4300 3900
-F 0 "U?" H 4300 5215 50  0000 C CNN
-F 1 "BluePill" H 4300 5124 50  0000 C CNN
-F 2 "" H 4300 4550 50  0001 C CNN
-F 3 "" H 4300 4550 50  0001 C CNN
-	1    4300 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP_Small C?
 U 1 1 5ECCE487
 P 2950 6850
@@ -351,4 +340,15 @@ $EndComp
 Connection ~ 3900 6400
 Wire Wire Line
 	3900 6400 4050 6400
+$Comp
+L patchut:BluePill U?
+U 1 1 5ECD805D
+P 3750 3800
+F 0 "U?" H 3750 5115 50  0000 C CNN
+F 1 "BluePill" H 3750 5024 50  0000 C CNN
+F 2 "" H 3750 3200 50  0001 C CNN
+F 3 "" H 3750 3200 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
