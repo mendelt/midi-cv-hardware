@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L patchut:AD5668 U?
 U 1 1 5EA75826
-P 6700 3800
-F 0 "U?" H 6700 4465 50  0000 C CNN
-F 1 "AD5668" H 6700 4374 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 6700 3800 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5628_5648_5668.pdf" H 6700 3800 50  0001 C CNN
-	1    6700 3800
+P 6250 3950
+F 0 "U?" H 6250 4615 50  0000 C CNN
+F 1 "AD5668" H 6250 4524 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 6250 3950 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5628_5648_5668.pdf" H 6250 3950 50  0001 C CNN
+	1    6250 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -400,9 +400,16 @@ F 3 "" H 3850 5100 50  0001 C CNN
 $EndComp
 NoConn ~ 3050 3000
 $Sheet
-S 8950 1950 500  300 
+S 1100 2200 500  300 
 U 5ED62C29
 F0 "midi" 50
 F1 "midi.sch" 50
+F2 "midi_in" O R 1600 2350 50 
+$EndSheet
+$Sheet
+S 5900 2400 950  600 
+U 5ED6594C
+F0 "dac" 50
+F1 "dac.sch" 50
 $EndSheet
 $EndSCHEMATC
