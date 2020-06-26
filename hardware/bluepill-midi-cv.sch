@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -433,4 +433,10 @@ NoConn ~ 3050 4200
 NoConn ~ 3050 4300
 NoConn ~ 3050 4400
 NoConn ~ 3050 4600
+$Sheet
+S 5550 4150 850  550 
+U 5EF737D3
+F0 "Output" 50
+F1 "output.sch" 50
+$EndSheet
 $EndSCHEMATC
