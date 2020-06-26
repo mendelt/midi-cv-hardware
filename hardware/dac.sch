@@ -115,4 +115,20 @@ Text Label 3750 2900 1    50   ~ 0
 GND
 Text Label 6050 3550 2    50   ~ 0
 GND
+Text HLabel 4650 3650 0    50   Output ~ 0
+OUTA
+Text HLabel 6050 3650 2    50   Output ~ 0
+OUTB
+Text HLabel 4650 3750 0    50   Output ~ 0
+OUTC
+Text HLabel 6050 3750 2    50   Output ~ 0
+OUTD
+Text HLabel 4650 3850 0    50   Output ~ 0
+OUTE
+Text HLabel 6050 3850 2    50   Output ~ 0
+OUTF
+Text HLabel 4650 3950 0    50   Output ~ 0
+OUTG
+Text HLabel 6050 3950 2    50   Output ~ 0
+OUTH
 $EndSCHEMATC
