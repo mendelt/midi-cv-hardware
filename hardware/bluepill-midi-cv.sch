@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L patchut:AD5668 U?
-U 1 1 5EA75826
-P 6250 3950
-F 0 "U?" H 6250 4615 50  0000 C CNN
-F 1 "AD5668" H 6250 4524 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 6250 3950 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5628_5648_5668.pdf" H 6250 3950 50  0001 C CNN
-	1    6250 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x08_Odd_Even J?
 U 1 1 5ECC268D
 P 1500 6600
@@ -412,4 +401,36 @@ U 5ED6594C
 F0 "dac" 50
 F1 "dac.sch" 50
 $EndSheet
+NoConn ~ 4450 4800
+NoConn ~ 4450 4700
+NoConn ~ 4450 4600
+NoConn ~ 4450 4400
+NoConn ~ 4450 4300
+NoConn ~ 4450 4200
+NoConn ~ 4450 4100
+NoConn ~ 4450 4000
+NoConn ~ 4450 3900
+NoConn ~ 4450 3800
+NoConn ~ 4450 3700
+NoConn ~ 4450 3600
+NoConn ~ 4450 3500
+NoConn ~ 4450 3400
+NoConn ~ 4450 3300
+NoConn ~ 4450 3200
+NoConn ~ 4450 3000
+NoConn ~ 4450 2900
+NoConn ~ 3050 3200
+NoConn ~ 3050 3300
+NoConn ~ 3050 3400
+NoConn ~ 3050 3500
+NoConn ~ 3050 3600
+NoConn ~ 3050 3700
+NoConn ~ 3050 3800
+NoConn ~ 3050 3900
+NoConn ~ 3050 4000
+NoConn ~ 3050 4100
+NoConn ~ 3050 4200
+NoConn ~ 3050 4300
+NoConn ~ 3050 4400
+NoConn ~ 3050 4600
 $EndSCHEMATC
