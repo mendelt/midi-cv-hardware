@@ -1,4 +1,4 @@
-# bluepill-midi-cv
+# midi-cv-hardware
 A midi to cv converter based on the bluepill stm32 board.
 
 Bluepill
